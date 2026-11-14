@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+torch>=2.1
+transformers>=4.56   # DINOv3 support; only needed by scripts/extract_dinov3.py
+h5py>=3.8            # only for MATLAB v7.3 files
