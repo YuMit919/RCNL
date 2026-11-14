@@ -15,7 +15,7 @@ negative losses are safe:
 3. **Membership learning.** Per-class membership heads are trained with a logistic PU risk (references as positives,
    the unlabeled scene as contrast), jointly with a known-class head.
 
-This release implements the final RCNL model without positive-logit variance regularization.
+This release implements the final RCNL model.
 
 The representation is frozen: a spectral view (PCA-30 + window means) and true-colour DINOv3 views
 (LVD-1689M and SAT-493M ViT-L/16, native RGB interface, image upsampled ×4). One run (certification + training)
